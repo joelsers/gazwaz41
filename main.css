@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.austinpic {
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    width: 75%;
+    min-width: 60%;
+}
+.junkpic {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    min-width: 60%;
+}
+
+.col1 {
+    top: 1.5%;
+    z-index: -10;
+    position: absolute;
+    display: inline;
+    left: 1%;
+    width: 48.5%;
+    height: 97%;
+    background: grey;
+    
+}
+.col2 {
+    top: 1.5%;
+    right: 1%;
+    z-index: -10;
+    position: absolute;
+    display: inline;
+    width: 48.5%;
+    height: 97%;
+    background: grey;
+    
+}
+
+.topnav {
+    width: 100%;
+    background-color: teal;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
